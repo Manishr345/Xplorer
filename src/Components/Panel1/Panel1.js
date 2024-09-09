@@ -13,21 +13,18 @@ export default function Panel1(props) {
 
   return (
     <div className='p1panel items-center justify-center'>
-    <div className='overflow-hidden w-[45%]' style={{marginBottom: '50px'}}>
+    <div className='overflow-hidden w-[100%] h-[100%]'>
       <div className={`flex relative transition ease-out duration-400`} style={{
-        transform: `translateX(-${index * 100}%)`
+        transform: `translateX(-${index * 100}%)`, opacity: '0.4'
       }}>
         {props.carouselitems.map((s, i) => {
-          return <img src={s.url} key={i} alt={`carousel-item-${1}`} />;
+          return <img src={s} key={i} alt={`carousel-item-${1}`} />;
         })}
       </div>
-      <div className={`flex relative transition ease-out duration-400`} style={{
-        transform: `translateX(-${index * 100}%)`
-      }}>
-        {props.carouselitems.map((s, i) => {
-          return <h1>{s.title}</h1>;
-        })}
+      <div className='absolute flex inset-0 justify-center items-center text-white p1text'>
+        <h1 style={{border: '2px solid black', width: '800px'}}>Xplorer</h1>
       </div>
+        <h2 className='text-white mt-3 text-xl'>Buckle up for the amazing journey!!</h2>
     </div>
     </div>
   );

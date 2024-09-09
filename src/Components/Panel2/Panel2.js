@@ -9,7 +9,7 @@ export default function Panel2() {
         <img src={tracking}/>
       </div>
       <div className='p2details'>
-        <h2 >Why visit Xplorer before starting your explorations ?</h2>
+        <h2 style={{fontSize: '25px'}}>Why visit Xplorer before starting your explorations ?</h2>
         <br/>
         <hr style={{height: '3px'}}/>
         <br/>
