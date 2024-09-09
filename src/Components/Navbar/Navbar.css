@@ -23,12 +23,14 @@
     background-color: rgb(77, 27, 27);
     border-radius: 15px;
     color: white;
-    transition: font-size 0.5s ease;
+    transition: font-size 0.8s ease;
 }
 .navitem:hover{
-    background-color: rgb(99, 36, 36);
-    font-style:inherit;
+    background-color: white;
+    color: black;
+    font-weight: bold;
     font-size: large;
+    text-decoration: underline 2px;
     /* margin-right: 90px; */
 }
 .icon{

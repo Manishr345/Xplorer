@@ -4,7 +4,7 @@ import tracking from '../../Images/tracking.jpeg'
 
 export default function Panel2() {
   return (
-    <div className='panel2'>
+    <div className='panel2 mt-20 mb-20'>
       <div className='p2image'>
         <img src={tracking}/>
       </div>
