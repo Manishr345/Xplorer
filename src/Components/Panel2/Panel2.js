@@ -8,8 +8,8 @@ export default function Panel2() {
       <div className='p2image'>
         <img src={tracking}/>
       </div>
-      <div className='p2details'>
-        <h2 style={{fontSize: '25px'}}>Why visit Xplorer before starting your explorations ?</h2>
+      <div className='p2details pt-60'>
+        <h2 className='font-serif' style={{fontSize: '25px'}}>Why visit Xplorer before starting your explorations ?</h2>
         <br/>
         <hr style={{height: '3px'}}/>
         <br/>

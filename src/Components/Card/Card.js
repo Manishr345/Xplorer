@@ -5,7 +5,7 @@ export default function Card(props) {
     <div className='card'>
       <div className='cardimage'><img src={props.image} alt='error'/></div>
       <div className='info'>
-      <h3 style={{color: 'white', fontSize: '20px'}}>{props.heading}</h3>
+      <h3 className='font-serif' style={{color: 'white', fontSize: '20px'}}>{props.heading}</h3>
       <br/>
       <h4 style={{color: 'white'}}>{props.details}</h4>
       </div>
