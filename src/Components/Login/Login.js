@@ -16,7 +16,7 @@ export default function Login(props) {
         <br/>
         <Link to='/home'><button className='bg-green-900 ml-8 text-white h-8 font-mono w-96 rounded-md mb-2 ' onClick={props.licontinueButton}>Continue</button></Link>
         <br/>
-        <Link to='/forgotpassoword'>Forgot Password?</Link>
+        <Link to='/forgotpassword'>Forgot Password?</Link>
         <br/>
         <p  className='mb-2 text-lg font-serif pl-15 mt-3'>Connect with Social Media</p>
         <button className='bg-blue-600 w-96 rounded-md ml-11 pl-3 text-white h-8 pt-1 flex mb-3'>

@@ -10,6 +10,10 @@ import carousel5 from '../../Images/carousel5.avif';
 import carousel6 from '../../Images/carousel6.avif';
 import carousel7 from '../../Images/carousel7.avif';
 import carousel8 from '../../Images/carousel8.avif';
+import carousel9 from '../../Images/carousel9.avif';
+import carousel10 from '../../Images/carousel10.avif';
+import carousel11 from '../../Images/carousel11.avif';
+import carousel12 from '../../Images/carousel12.avif';
 
 export default function Home(props) {
     const carouselitems = [
@@ -20,7 +24,11 @@ export default function Home(props) {
         carousel5,
         carousel6,
         carousel7,
-        carousel8
+        carousel8,
+        carousel9,
+        carousel10,
+        carousel11,
+        carousel12
       ]
   return (
     props.shownav && <div>

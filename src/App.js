@@ -10,6 +10,7 @@ import { getConfig } from '@testing-library/react';
 import Signup from './Components/Signup/Signup.js';
 import Login from './Components/Login/Login.js';
 import { useState } from 'react';
+import ForgotPassword from './Components/ForgotPassword/ForgotPassword.js';
 
 function App() {
   const [shownav, setShowNav] = useState(null);
@@ -29,6 +30,7 @@ function App() {
         <Route exact path='/about' element={<About/>}></Route>
         <Route exact path='/signup' element={<Signup setLoggedin={setLoggedin}/>}></Route>
         <Route exact path='/login' element={<Login licontinueButton={licontinueButton} loggedin={loggedin}/>}></Route>
+        <Route exact path='/forgotpassword' element={<ForgotPassword/>}></Route>
       </Routes>
     </div>
     </Router>

@@ -6,7 +6,7 @@ export default function Panel1(props) {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setIndex((previndex) => (previndex === 3 ? 0 : previndex + 1));
+      setIndex((previndex) => (previndex === 5 ? 0 : previndex + 1));
     }, 3000);
     return () => clearInterval(interval);
   })
