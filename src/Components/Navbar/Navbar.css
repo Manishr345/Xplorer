@@ -3,7 +3,7 @@
     margin-top: 10px;
     margin-bottom: 20px;
     display: flex;
-    background-color: rgb(77, 27, 27);
+    background-color: #203130;
     position: -webkit-sticky;
     position: sticky;
     z-index: 1000;
@@ -20,7 +20,7 @@
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(77, 27, 27);
+    background-color: #203130;
     border-radius: 15px;
     color: white;
     transition: font-size 0.8s ease;

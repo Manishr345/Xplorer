@@ -35,7 +35,7 @@ export default function Home(props) {
         <Panel1 carouselitems={carouselitems}/>
         <Panel2/>
         <Panel3/>
-        <div className='flex items-center mt-20 justify-center bg-pink-400 space-x-40 text-xl font-serif tracking-tight pb-5 pr-10 pt-16' style={{backgroundColor: '#F8ECE6'}}>
+        <div className='footer flex items-center mt-20 justify-center bg-pink-400 space-x-40 text-xl font-serif tracking-tight pb-5 pr-10 pt-16' style={{backgroundColor: '#F8ECE6'}} id='footer'>
             <h1>Contact us</h1>
             <h1>Quick Categories</h1>
             <h1>Visit</h1>

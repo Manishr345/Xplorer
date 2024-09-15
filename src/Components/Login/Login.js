@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Login(props) {
   return (
-    props.loggedin && <div className='flex ml-40 mt-10 bg-gray-300 rounded-xl bg-white w-[1000px] h-[500px]'>
+    props.loggedin && <div className='flex ml-40 mt-1 rounded-xl w-[1000px] h-[500px]' style={{backgroundColor: '#F8ECE6'}}>
        <div className='w-[480px]'>
         <img className='rounded-s-xl w-full h-full' src={logo}/>
        </div>

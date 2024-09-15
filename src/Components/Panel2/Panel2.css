@@ -8,7 +8,7 @@
     margin: 0;
     width: 100%;
     height: 100%;
-    background-image: radial-gradient( rgb(59, 122, 59),  rgb(26, 62, 26));
+    background-color: #0E4044;
 }
 .p2image img{
     clip-path: ellipse(60% 60% at 30% 50%);
@@ -19,7 +19,7 @@
 .p2details{
     padding: 50px;
     width: 3900px;
-    background-image: radial-gradient( rgb(59, 122, 59), rgb(26, 62, 26));
+    background-color: #0E4044;
     color: white;
 }
 .p2image img:hover{

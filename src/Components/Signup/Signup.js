@@ -9,7 +9,7 @@ export default function Signup(props) {
         props.setLoggedin(1);
     }
   return (
-    signedup && <div className='flex ml-40 mt-10 rounded-xl bg-gray-300 w-[1000px] h-[500px]'>
+    signedup && <div className='flex ml-40 mt-10 rounded-xl w-[1000px] h-[500px]' style={{backgroundColor: '#F8ECE6'}}>
        <div className='w-[700px]'>
         <img className='rounded-s-xl w-full h-full' src={logo}/>
        </div>
