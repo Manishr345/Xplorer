@@ -17,6 +17,7 @@
     transition: clip-path 1s ease;
 }
 .p2details{
+    font-family: "Barlow Condensed", sans-serif;
     padding: 50px;
     width: 3900px;
     background-color: #0E4044;

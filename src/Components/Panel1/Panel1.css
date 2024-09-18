@@ -1,12 +1,13 @@
 .p1panel{
     width: 1200px;
     height: 520px;
-    background-color: rgb(41, 75, 41);
+    background-color:#0E4044;
     margin-left: 30px;
     border-radius: 15px;
     margin-bottom: 30px;
 }
 .p1text{
+    font-family: "Jacques Francois Shadow", serif;
     font-size: 80px;
     animation: resizeText 4s infinite alternate ease-in-out;
 }
@@ -17,4 +18,8 @@
     100%{
         font-size: 120px;
     }
+}
+.p1desc{
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 23px;
 }

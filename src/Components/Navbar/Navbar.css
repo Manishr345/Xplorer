@@ -10,6 +10,8 @@
     top: 0;
 }
 .navitem{
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
     align-items: center;
     justify-content: center;
     text-decoration: none;
@@ -29,7 +31,7 @@
     background-color: white;
     color: black;
     font-weight: bold;
-    font-size: large;
+    font-size: 23px;
     text-decoration: underline 2px;
     /* margin-right: 90px; */
 }

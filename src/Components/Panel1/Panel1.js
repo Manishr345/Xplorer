@@ -24,7 +24,7 @@ export default function Panel1(props) {
       <div className='absolute flex inset-0 justify-center items-center text-white p1text font-serif tracking-widest'>
         <h1 style={{border: '2px solid black', width: '800px'}}>Xplorer</h1>
       </div>
-        <h2 className='text-white mt-3 font-mono tracking-tight text-xl'>Buckle up for the amazing journey!!</h2>
+        <h2 className='text-white mt-3 font-mono tracking-tight text-xl p1desc'>Buckle up for the amazing journey!!</h2>
     </div>
     </div>
   );
