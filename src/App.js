@@ -6,7 +6,6 @@ import {BrowserRouter as Router,
 import Navbar from './Components/Navbar/Navbar.js';
 import About from './Components/About/About.js';
 import Home from './Components/Home/Home.js';
-import { getConfig } from '@testing-library/react';
 import Signup from './Components/Signup/Signup.js';
 import Login from './Components/Login/Login.js';
 import { useState } from 'react';
