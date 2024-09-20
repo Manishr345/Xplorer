@@ -30,6 +30,7 @@ function App() {
         <Route exact path='/signup' element={<Signup setLoggedin={setLoggedin}/>}></Route>
         <Route exact path='/login' element={<Login licontinueButton={licontinueButton} loggedin={loggedin}/>}></Route>
         <Route exact path='/forgotpassword' element={<ForgotPassword/>}></Route>
+        <Route exact path='/home#contactus' element={<Home/>}></Route>
       </Routes>
     </div>
     </Router>
