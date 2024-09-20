@@ -6,7 +6,7 @@ import Panel3 from '../Panel3/Panel3.js';
 import carousel1 from '../../Images/carousel1.jpg';
 import carousel2 from '../../Images/carousel2.jpg';
 import carousel3 from '../../Images/carousel3.avif';
-import carousel4 from '../../Images/carousel4.jpg';
+import carousel4 from '../../Images/carousel4.avif';
 import carousel5 from '../../Images/carousel5.avif';
 import carousel6 from '../../Images/carousel6.avif';
 import carousel7 from '../../Images/carousel7.avif';
