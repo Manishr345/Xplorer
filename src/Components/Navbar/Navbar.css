@@ -1,17 +1,7 @@
-.navbar{
-    height: 80px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    display: flex;
-    background-color: #203130;
-    position: -webkit-sticky;
-    position: sticky;
-    z-index: 1000;
-    top: 0;
-}
+
 .navitem{
     font-size: 20px;
-    font-family: "Bebas Neue", sans-serif;
+    
     align-items: center;
     justify-content: center;
     text-decoration: none;

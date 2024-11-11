@@ -18,7 +18,7 @@ export default function Panel1(props) {
         transform: `translateX(-${index * 100}%)`, opacity: '0.5'
       }}>
         {props.carouselitems.map((s, i) => {
-          return <img src={s} key={i} alt={`carousel-item-${1}`} />;
+          return <img style={{borderRadius: '15px'}} src={s} key={i} alt={`carousel-item-${1}`} />;
         })}
       </div>
       <div className='absolute flex inset-0 justify-center items-center text-white p1text font-serif tracking-widest'>
